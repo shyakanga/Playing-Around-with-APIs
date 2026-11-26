@@ -1,5 +1,5 @@
 import requests
-from fetching.endpoints import polymarket_endpoints
+from api.endpoints import polymarket_endpoints
 
 def get_eventById(event_id):
     url = f"{polymarket_endpoints["event_byId"]}/{event_id}"

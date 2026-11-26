@@ -1,5 +1,5 @@
 import requests
-from fetching.endpoints import finnhub_endpoints, finnhub_key
+from api.endpoints import finnhub_endpoints, finnhub_key
 
 header = { "X-Finnhub-Token" : finnhub_key}
 

@@ -1,5 +1,5 @@
 import json
-from fetching.finnhub import (
+from api.finnhub import (
     get_company_info,
     get_current_price,
     get_insider_trades
